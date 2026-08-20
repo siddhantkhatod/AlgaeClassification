@@ -9,7 +9,7 @@ This repo contains multiple image classification models (see models folder) trai
 
 ### How to Use
 
-The AlgaeClassifier.ipynb script loads and classifies algae images. In the script, change:
+The AlgaeClassification.ipynb script loads and classifies algae images. In the script, change:
 
 - The path of [model_path] to the path to the desired classification model you want to use (see models folder)
 - The path of [image_directory] to the path of the folder containing the images you want to classify
@@ -22,10 +22,10 @@ Run the script, and it will output classification labels and predictions associa
 
 There are multiple trained models you can call via the AlgaeClassifier.ipynb script.
 
-- **algaeclassifier_cnn**: Custom-built CNN trained, validated, and tested on the entire algae dataset (all 853 images); kernel size: 3x3; layers: 3; epochs: 30; batch size: 32
-- **algaeclassifier_yolo**: YOLOv5 model finetuned with 20-shot learning; epochs: 10
-- **algaeclassifier_maskrcnn**: Mask R-CNN model finetuned with 20-shot learning; epochs: 10
-- **algaeclassifier_ssd**: SSD model finetuned with 20-shot learning; epochs: 10
+- **algaeclassification_cnn**: Custom-built CNN trained, validated, and tested on the entire algae dataset (all 853 images); kernel size: 3x3; layers: 3; epochs: 30; batch size: 32
+- **algaeclassification_yolo**: YOLOv5 model finetuned with 20-shot learning; epochs: 10
+- **algaeclassification_maskrcnn**: Mask R-CNN model finetuned with 20-shot learning; epochs: 10
+- **algaeclassification_ssd**: SSD model finetuned with 20-shot learning; epochs: 10
 
 
 ### Algae Classes
